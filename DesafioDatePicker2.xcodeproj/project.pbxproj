@@ -16,6 +16,8 @@
 		6D5E85B828235B4700CA6EBD /* DesafioDatePicker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85B728235B4700CA6EBD /* DesafioDatePicker2Tests.swift */; };
 		6D5E85C228235B4700CA6EBD /* DesafioDatePicker2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85C128235B4700CA6EBD /* DesafioDatePicker2UITests.swift */; };
 		6D5E85C428235B4700CA6EBD /* DesafioDatePicker2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85C328235B4700CA6EBD /* DesafioDatePicker2UITestsLaunchTests.swift */; };
+		6D5E85D128235E0500CA6EBD /* PessoaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85D028235E0500CA6EBD /* PessoaTableViewCell.swift */; };
+		6D5E85D3282367B200CA6EBD /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85D2282367B200CA6EBD /* Pessoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6D5E85BD28235B4700CA6EBD /* DesafioDatePicker2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioDatePicker2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5E85C128235B4700CA6EBD /* DesafioDatePicker2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioDatePicker2UITests.swift; sourceTree = "<group>"; };
 		6D5E85C328235B4700CA6EBD /* DesafioDatePicker2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioDatePicker2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D5E85D028235E0500CA6EBD /* PessoaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaTableViewCell.swift; sourceTree = "<group>"; };
+		6D5E85D2282367B200CA6EBD /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6D5E85A928235B4700CA6EBD /* Assets.xcassets */,
 				6D5E85AB28235B4700CA6EBD /* LaunchScreen.storyboard */,
 				6D5E85AE28235B4700CA6EBD /* Info.plist */,
+				6D5E85D028235E0500CA6EBD /* PessoaTableViewCell.swift */,
+				6D5E85D2282367B200CA6EBD /* Pessoa.swift */,
 			);
 			path = DesafioDatePicker2;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5E85D3282367B200CA6EBD /* Pessoa.swift in Sources */,
 				6D5E85A528235B4300CA6EBD /* ViewController.swift in Sources */,
+				6D5E85D128235E0500CA6EBD /* PessoaTableViewCell.swift in Sources */,
 				6D5E85A128235B4200CA6EBD /* AppDelegate.swift in Sources */,
 				6D5E85A328235B4200CA6EBD /* SceneDelegate.swift in Sources */,
 			);
